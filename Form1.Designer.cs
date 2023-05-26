@@ -33,8 +33,6 @@
             textBoxNomeArquivo = new TextBox();
             labelNomeArquivo = new Label();
             labelTexto = new Label();
-            textBoxDadosArquivo = new TextBox();
-            labelDadosArquivo = new Label();
             labelAlunos = new Label();
             textBoxAlunos = new TextBox();
             labelPessoas = new Label();
@@ -48,6 +46,7 @@
             // 
             // buttonPesquisarArquivo
             // 
+            buttonPesquisarArquivo.Font = new Font("Franklin Gothic Medium Cond", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
             buttonPesquisarArquivo.Location = new Point(459, 113);
             buttonPesquisarArquivo.Name = "buttonPesquisarArquivo";
             buttonPesquisarArquivo.Size = new Size(94, 29);
@@ -59,10 +58,10 @@
             // labelCabecalho
             // 
             labelCabecalho.AutoSize = true;
-            labelCabecalho.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
-            labelCabecalho.Location = new Point(22, 19);
+            labelCabecalho.Font = new Font("Franklin Gothic Heavy", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            labelCabecalho.Location = new Point(17, 20);
             labelCabecalho.Name = "labelCabecalho";
-            labelCabecalho.Size = new Size(306, 46);
+            labelCabecalho.Size = new Size(333, 39);
             labelCabecalho.TabIndex = 1;
             labelCabecalho.Text = "Pesquisa de Alunos";
             // 
@@ -76,103 +75,91 @@
             // labelNomeArquivo
             // 
             labelNomeArquivo.AutoSize = true;
+            labelNomeArquivo.Font = new Font("Franklin Gothic Medium Cond", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
             labelNomeArquivo.Location = new Point(22, 122);
             labelNomeArquivo.Name = "labelNomeArquivo";
-            labelNomeArquivo.Size = new Size(129, 20);
+            labelNomeArquivo.Size = new Size(121, 21);
             labelNomeArquivo.TabIndex = 3;
             labelNomeArquivo.Text = "Nome do arquivo:";
             // 
             // labelTexto
             // 
             labelTexto.AutoSize = true;
+            labelTexto.Font = new Font("Franklin Gothic Book", 9F, FontStyle.Regular, GraphicsUnit.Point);
             labelTexto.Location = new Point(22, 78);
             labelTexto.Name = "labelTexto";
-            labelTexto.Size = new Size(686, 20);
+            labelTexto.Size = new Size(662, 20);
             labelTexto.TabIndex = 4;
             labelTexto.Text = "Para pesquisar se um arquivo contém dados de alunos da instituição, insira abaixo o nome do arquivo.";
-            // 
-            // textBoxDadosArquivo
-            // 
-            textBoxDadosArquivo.Enabled = false;
-            textBoxDadosArquivo.Location = new Point(22, 195);
-            textBoxDadosArquivo.Multiline = true;
-            textBoxDadosArquivo.Name = "textBoxDadosArquivo";
-            textBoxDadosArquivo.ReadOnly = true;
-            textBoxDadosArquivo.ScrollBars = ScrollBars.Both;
-            textBoxDadosArquivo.Size = new Size(411, 358);
-            textBoxDadosArquivo.TabIndex = 5;
-            // 
-            // labelDadosArquivo
-            // 
-            labelDadosArquivo.AutoSize = true;
-            labelDadosArquivo.Location = new Point(22, 172);
-            labelDadosArquivo.Name = "labelDadosArquivo";
-            labelDadosArquivo.Size = new Size(211, 20);
-            labelDadosArquivo.TabIndex = 6;
-            labelDadosArquivo.Text = "Dados do arquivo pesquisado:";
             // 
             // labelAlunos
             // 
             labelAlunos.AutoSize = true;
-            labelAlunos.Location = new Point(479, 172);
+            labelAlunos.Font = new Font("Franklin Gothic Book", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            labelAlunos.Location = new Point(22, 198);
             labelAlunos.Name = "labelAlunos";
-            labelAlunos.Size = new Size(150, 20);
+            labelAlunos.Size = new Size(144, 20);
             labelAlunos.TabIndex = 7;
             labelAlunos.Text = "Alunos da instituição:";
             // 
             // textBoxAlunos
             // 
             textBoxAlunos.Enabled = false;
-            textBoxAlunos.Location = new Point(479, 195);
+            textBoxAlunos.Font = new Font("Franklin Gothic Book", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            textBoxAlunos.Location = new Point(22, 225);
             textBoxAlunos.Multiline = true;
             textBoxAlunos.Name = "textBoxAlunos";
             textBoxAlunos.ReadOnly = true;
             textBoxAlunos.ScrollBars = ScrollBars.Both;
-            textBoxAlunos.Size = new Size(429, 141);
+            textBoxAlunos.Size = new Size(630, 303);
             textBoxAlunos.TabIndex = 8;
             // 
             // labelPessoas
             // 
             labelPessoas.AutoSize = true;
-            labelPessoas.Location = new Point(479, 391);
+            labelPessoas.Font = new Font("Franklin Gothic Book", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            labelPessoas.Location = new Point(749, 198);
             labelPessoas.Name = "labelPessoas";
-            labelPessoas.Size = new Size(111, 20);
+            labelPessoas.Size = new Size(112, 20);
             labelPessoas.TabIndex = 9;
             labelPessoas.Text = "Outras pessoas:";
             // 
             // labelTotalAlunos
             // 
             labelTotalAlunos.AutoSize = true;
-            labelTotalAlunos.Location = new Point(479, 346);
+            labelTotalAlunos.Font = new Font("Franklin Gothic Book", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            labelTotalAlunos.Location = new Point(22, 547);
             labelTotalAlunos.Name = "labelTotalAlunos";
-            labelTotalAlunos.Size = new Size(150, 20);
+            labelTotalAlunos.Size = new Size(146, 20);
             labelTotalAlunos.TabIndex = 10;
             labelTotalAlunos.Text = "Total de ocorrências: ";
             // 
             // textBoxPessoas
             // 
             textBoxPessoas.Enabled = false;
-            textBoxPessoas.Location = new Point(479, 414);
+            textBoxPessoas.Font = new Font("Franklin Gothic Book", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            textBoxPessoas.Location = new Point(749, 225);
             textBoxPessoas.Multiline = true;
             textBoxPessoas.Name = "textBoxPessoas";
             textBoxPessoas.ReadOnly = true;
             textBoxPessoas.ScrollBars = ScrollBars.Both;
-            textBoxPessoas.Size = new Size(429, 139);
+            textBoxPessoas.Size = new Size(630, 303);
             textBoxPessoas.TabIndex = 11;
             // 
             // labelTotalPessoas
             // 
             labelTotalPessoas.AutoSize = true;
-            labelTotalPessoas.Location = new Point(479, 563);
+            labelTotalPessoas.Font = new Font("Franklin Gothic Book", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            labelTotalPessoas.Location = new Point(749, 547);
             labelTotalPessoas.Name = "labelTotalPessoas";
-            labelTotalPessoas.Size = new Size(150, 20);
+            labelTotalPessoas.Size = new Size(146, 20);
             labelTotalPessoas.TabIndex = 12;
             labelTotalPessoas.Text = "Total de ocorrências: ";
             // 
             // textBoxTotalAlunos
             // 
             textBoxTotalAlunos.Enabled = false;
-            textBoxTotalAlunos.Location = new Point(625, 339);
+            textBoxTotalAlunos.Location = new Point(165, 540);
             textBoxTotalAlunos.Name = "textBoxTotalAlunos";
             textBoxTotalAlunos.ReadOnly = true;
             textBoxTotalAlunos.Size = new Size(49, 27);
@@ -181,7 +168,7 @@
             // textBoxTotalPessoas
             // 
             textBoxTotalPessoas.Enabled = false;
-            textBoxTotalPessoas.Location = new Point(625, 556);
+            textBoxTotalPessoas.Location = new Point(889, 540);
             textBoxTotalPessoas.Name = "textBoxTotalPessoas";
             textBoxTotalPessoas.ReadOnly = true;
             textBoxTotalPessoas.Size = new Size(49, 27);
@@ -189,7 +176,8 @@
             // 
             // buttonLimparTudo
             // 
-            buttonLimparTudo.Location = new Point(414, 629);
+            buttonLimparTudo.Font = new Font("Franklin Gothic Medium Cond", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonLimparTudo.Location = new Point(632, 623);
             buttonLimparTudo.Name = "buttonLimparTudo";
             buttonLimparTudo.Size = new Size(124, 29);
             buttonLimparTudo.TabIndex = 15;
@@ -203,7 +191,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            ClientSize = new Size(950, 678);
+            BackColor = SystemColors.ControlLightLight;
+            ClientSize = new Size(1392, 678);
             Controls.Add(buttonLimparTudo);
             Controls.Add(textBoxTotalPessoas);
             Controls.Add(textBoxTotalAlunos);
@@ -213,8 +202,6 @@
             Controls.Add(labelPessoas);
             Controls.Add(textBoxAlunos);
             Controls.Add(labelAlunos);
-            Controls.Add(labelDadosArquivo);
-            Controls.Add(textBoxDadosArquivo);
             Controls.Add(labelTexto);
             Controls.Add(labelNomeArquivo);
             Controls.Add(textBoxNomeArquivo);
@@ -234,8 +221,6 @@
         private TextBox textBoxNomeArquivo;
         private Label labelNomeArquivo;
         private Label labelTexto;
-        private TextBox textBoxDadosArquivo;
-        private Label labelDadosArquivo;
         private Label labelAlunos;
         private TextBox textBoxAlunos;
         private Label labelPessoas;
