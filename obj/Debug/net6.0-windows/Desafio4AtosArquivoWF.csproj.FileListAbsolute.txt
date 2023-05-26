@@ -1,0 +1,17 @@
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\bin\Debug\net6.0-windows\Desafio4AtosArquivoWF.exe
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\bin\Debug\net6.0-windows\Desafio4AtosArquivoWF.deps.json
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\bin\Debug\net6.0-windows\Desafio4AtosArquivoWF.runtimeconfig.json
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\bin\Debug\net6.0-windows\Desafio4AtosArquivoWF.dll
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\bin\Debug\net6.0-windows\Desafio4AtosArquivoWF.pdb
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\obj\Debug\net6.0-windows\Desafio4AtosArquivoWF.csproj.AssemblyReference.cache
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\obj\Debug\net6.0-windows\Desafio4AtosArquivoWF.Form1.resources
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\obj\Debug\net6.0-windows\Desafio4AtosArquivoWF.csproj.GenerateResource.cache
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\obj\Debug\net6.0-windows\Desafio4AtosArquivoWF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\obj\Debug\net6.0-windows\Desafio4AtosArquivoWF.AssemblyInfoInputs.cache
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\obj\Debug\net6.0-windows\Desafio4AtosArquivoWF.AssemblyInfo.cs
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\obj\Debug\net6.0-windows\Desafio4AtosArquivoWF.csproj.CoreCompileInputs.cache
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\obj\Debug\net6.0-windows\Desafio4AtosArquivoWF.dll
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\obj\Debug\net6.0-windows\refint\Desafio4AtosArquivoWF.dll
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\obj\Debug\net6.0-windows\Desafio4AtosArquivoWF.pdb
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\obj\Debug\net6.0-windows\Desafio4AtosArquivoWF.genruntimeconfig.cache
+C:\Workspace\atos_entregas\Desafio4AtosArquivoWF\obj\Debug\net6.0-windows\ref\Desafio4AtosArquivoWF.dll
