@@ -7,18 +7,29 @@ using static System.Windows.Forms.LinkLabel;
 
 namespace Desafio4AtosArquivoWF
 {
+    /// <summary>
+    /// Classe responsável por ler e processar o arquivo recebido 
+    /// </summary>
     internal  static class Persistencia
     {
-        public static void ProcessaArquivo(string nomeArquivo, List<Aluno> alunos, List<Pessoa> pessoas)
+        /// <summary>
+        /// Método de classe responsável por ler um arquivo linha a linha e transformar os dados de interesse em objetos
+        /// </summary>
+        /// <param name="caminhoArquivo"></param>
+        /// <param name="alunos"></param>
+        /// <param name="pessoas"></param>
+        public static void ProcessaArquivo(string caminhoArquivo, List<Aluno> alunos, List<Pessoa> pessoas)
         {
             try
             {
-                using (StreamReader leitor = new StreamReader(nomeArquivo, Encoding.UTF8))
+                // Abre o arquivo para leitura
+                using (StreamReader leitor = new StreamReader(caminhoArquivo, Encoding.UTF8))
                 {
                     string linha;
+                    // Lê cada linha do arquivo
                     while ((linha = leitor.ReadLine()) != null)
                     {
-                        Console.WriteLine("Linha do arquivo: " + linha); // Mensagem de depuração
+                        // Se a linha começa com "Z", é uma pessoa
                         if (linha.StartsWith("Z"))
                         {
                             string[] dadosPessoa = linha.Split('-');
@@ -29,9 +40,8 @@ namespace Desafio4AtosArquivoWF
                             string cpf = dadosPessoa[5];
                             Pessoa pessoa = new Pessoa(nome, telefone, cidade, rg, cpf);
                             pessoas.Add(pessoa);
-                            Console.WriteLine("Pessoa adicionada: " + pessoa.Nome); // Mensagem de depuração
-
                         }
+                        // Se a linha começa com "Y", o "Z" de cima é um aluno
                         else if (linha.StartsWith("Y"))
                         {
                             string[] dadosAluno = linha.Split('-');
@@ -40,8 +50,6 @@ namespace Desafio4AtosArquivoWF
                             string nomeCurso = dadosAluno[3];
                             Aluno aluno = new Aluno(pessoas[pessoas.Count - 1], matricula, codigoCurso, nomeCurso);
                             alunos.Add(aluno);
-                            Console.WriteLine("Aluno adicionado: " + aluno.Matricula); // Mensagem de depuração
-
                         }
                     }
                 }
@@ -51,6 +59,5 @@ namespace Desafio4AtosArquivoWF
                 MessageBox.Show("Problemas com o arquivo");
             }
         }
-
     }
 }
